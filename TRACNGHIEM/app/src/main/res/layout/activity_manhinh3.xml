@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginBottom="25dp"
+        android:text="Câu 2: Đâu là động vật?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCauHoi"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_cau1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ếch" />
+
+            <CheckBox
+                android:id="@+id/cb_cau2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_cau3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rắn" />
+
+            <CheckBox
+                android:id="@+id/cb_cau4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hướng dương" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="29dp">
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F7B601"
+            android:text="&lt;" />
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:background="#F7B601"
+            android:layout_marginLeft="20px"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+
+            android:background="#F7B601"
+            android:text="&gt;" />
+
+    </LinearLayout>
+</LinearLayout>
